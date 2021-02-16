@@ -54,13 +54,13 @@
 // |       |     |     |      |      |      |                   |      |       |       |      |       |  DEL  |
 // |       |     |     |      |      |      |                   |      |       |   ^   |      |       |       |
 // |       |     |     |      |      |      |                   |      |   <-  |   v   |  ->  |       |   '   |
-// |       |     |     |      |      |      |                   |      |       |       |      |       |       |
+// |       |     |     |      |      |      |                   |      |       |   prev   |  pp  | next  |       |
 //                     |      |      |      |        |  |       |      |       |       |
 			bindings = <
 &trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans    &trans    &kp DEL
 &trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &kp UP    &trans    &trans    &trans
 &trans    &trans &trans &trans  &trans  &trans                       &trans      &kp LEFT  &kp DOWN  &kp RIGHT &trans    &kp SQT
-&trans    &trans &trans &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans    &trans    &trans    &trans
+&trans    &trans &trans &trans  &trans  &trans    &trans   &trans    &trans      &trans    &kp K_PREV    &kp K_PLAY_PAUSE    &kp K_NEXT    &trans
                         &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
 			>;
 
