@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/megamind4089
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: pete
+      revision: sensors/encoder-inc-dec-handle-more-ticks
       import: app/west.yml
   self:
     path: config
