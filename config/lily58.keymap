@@ -58,13 +58,13 @@
 // ------------------------------------------------------------------------------------------------------------
 // |       |     |     |      |      |      |                   |      |       |       |   [  |   ]   |  DEL  |
 // |       |     |     |      |      |      |                   |      |       |   ^   |   +  |   -   |   +   |
-// |       |     |     |      |      |      |                   |      |   <-  |   v   |  ->  |       |  RET  |
+// |       |     |     |      |      |      |                   |      |   <-  |   v   |  ->  |   \   |  RET  |
 // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
 //                     |      |      |      |        |  |       |      |       |       |
 			bindings = <
 &trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &kp LBKT    &kp RBKT    &kp DEL
 &trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &kp UP    &kp EQUAL    &kp MINUS    &kp EQUAL
-&trans    &trans &trans &trans  &trans  &trans                       &trans      &kp LEFT  &kp DOWN  &kp RIGHT &trans    &kp RET
+&trans    &trans &trans &trans  &trans  &trans                       &trans      &kp LEFT  &kp DOWN  &kp RIGHT &kp BSLH    &kp RET
 &trans    &trans &trans &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans    &trans    &trans    &trans
                         &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
 			>;
